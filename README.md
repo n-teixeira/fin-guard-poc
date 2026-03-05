@@ -1,6 +1,6 @@
 # FinGuard | Interceptor de Eventos Bancários
 
-> **⚠️ POC** — Projeto experimental para demonstração de conceito. Não utilizar em produção.
+> **⚠️ POC** — Projeto experimental para demonstração de conceito.
 
 App mobile que intercepta push notifications de bancos via Android Notification Listener API, aplica **Regex Pattern Matching** para extrair valor, tipo e origem da transação, e mantém fluxo de caixa pessoal atualizado em tempo real — **sem depender de Open Finance ou APIs bancárias**.
 
