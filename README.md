@@ -189,7 +189,3 @@ Customize em `RegexTransactionExtractor.java` conforme necessidade.
 | **HTTPS** | Configurar certificado no servidor; mobile usar URL `https://` |
 
 ---
-
-## Licença
-
-MIT
