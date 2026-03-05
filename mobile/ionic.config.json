@@ -1,0 +1,7 @@
+{
+  "name": "FinGuard",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

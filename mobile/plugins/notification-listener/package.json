@@ -1,0 +1,19 @@
+{
+  "name": "@finguard/notification-listener",
+  "version": "1.0.0",
+  "description": "Capacitor plugin to intercept banking notifications via Android Notification Listener",
+  "main": "dist/plugin.cjs.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build:cjs": "tsc -p tsconfig.cjs.json"
+  },
+  "peerDependencies": {
+    "@capacitor/core": ">=5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.4.0"
+  }
+}
